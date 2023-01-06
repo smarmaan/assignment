@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner styles */
+
+.banner-container {
+
+    background-image: url("images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+}
+
+.banner-title {
+
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    margin-right: 275px;
+
+
+}
+
+.banner-details {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    margin-right: 275px;
+}
+
+.btn {
+    color: #005FAC;
+    padding: 21px 25px 20px 26px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    border-style: none;
+    margin-right: 275px;
+}
+
+/* second-portion section */
+
+.second-portion {
+    display: flex;
+    margin: 131px 270px;
+    align-items: center;
+    max-height: 724px;
+    justify-content: space-around;
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.description,
+.list {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-right: 316px;
+    margin-bottom: 16px;
+}
+
+.list {
+    padding-left: 50px;
+}
+
+/* Future plan section */
+
+.my-plan {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.container .plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-bottom: 130px;
+}
+
+
+
+/* gradient section */
+
+.gradient {
+    background-image: url(images/watch.png), url(images/gradient1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: overlay;
+    text-align: center;
+    background-position: 50% 0%;
+    /* margin-bottom: 130px; */
+
+}
+
+
+.mindset {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 480px;
+    margin-top: 190px;
+    padding-top: 50px;
+
+}
+
+.call-btn {
+    color: #005FAC;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    border-style: none;
+    margin-right: 800px;
+
+}
+
+/* footer section */
+
+
+.footer-container {
+    display: flex;
+    background-color: #151414;
+    min-height: 577px;
+    min-width: 1600px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.info {
+
+    color: #F8F8F8;
+    max-width: 490px;
+}
+
+.subscribe {
+    color: #FFFFFF;
+    max-width: 325px;
+}
+
+.info-title {
+
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+
+.info-details {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+
+.number,
+.email {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+
+}
+
+.subscribe {
+
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 31px;
+}
+
+.mail {
+    width: 325px;
+    height: 40px;
+    left: 1046px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #15141442;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    margin-bottom: 20px;
+}
+
+.btn-Subscribe{
+    background: #005FAC;
+    border-radius: 8px;
+    padding: 20px 36px;
+border-style: none;
+font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+}
