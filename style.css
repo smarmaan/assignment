@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: right;
     text-align: right;
+
 }
 
 .banner-title {
@@ -26,7 +27,6 @@
     margin-bottom: 24px;
     margin-right: 275px;
 
-
 }
 
 .banner-details {
@@ -36,9 +36,11 @@
     color: #FFFFFF;
     margin-bottom: 32px;
     margin-right: 275px;
+
 }
 
 .btn {
+
     color: #005FAC;
     padding: 21px 25px 20px 26px;
     border-radius: 5px;
@@ -46,51 +48,86 @@
     font-size: 20px;
     border-style: none;
     margin-right: 275px;
+
 }
 
-/* second-portion section */
 
-.second-portion {
+/* failure-portion  */
+
+
+
+.failure-container {
+
     display: flex;
-    margin: 131px 270px;
     align-items: center;
-    max-height: 724px;
-    justify-content: space-around;
+    align-items: center;
+    margin-top: 131px;
+    margin-left: 206px;
+    margin-right: 322px;
+    margin-bottom: 130px;
 
 }
 
-.title {
+
+.person {
+
+    margin-right: 87px;
+
+}
+
+.failure-title {
+
+    max-width: 288px;
+    max-height: 94px;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
+    line-height: 47px;
     margin-bottom: 24px;
+
 }
 
-.description,
-.list {
+.failure-description {
 
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-    margin-right: 316px;
+    max-width: 416px;
+    max-height: 104px;
     margin-bottom: 16px;
+    line-height: 26px;
+
 }
 
-.list {
-    padding-left: 50px;
+.failure-list {
+
+    max-width: 349px;
+    max-height: 162px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-left: 23px;
+    list-style-image: url(images/icons/check-mark.png);
+
 }
+
 
 /* Future plan section */
 
+
 .my-plan {
+
     color: #151414;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
+
 }
 
 .plan-container {
+
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -98,11 +135,13 @@
 }
 
 .container .plan-title {
+
     font-weight: 700;
     font-size: 30px;
     color: #151414;
     margin-top: 16px;
     margin-bottom: 16px;
+
 }
 
 .plan-description {
@@ -110,22 +149,24 @@
     font-weight: 500;
     font-size: 25px;
     color: #737272;
-    margin-bottom: 130px;
-}
 
+}
 
 
 /* gradient section */
 
+
 .gradient {
+
     background-image: url(images/watch.png), url(images/gradient1.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
     background-blend-mode: overlay;
     text-align: center;
-    background-position: 50% 0%;
-    /* margin-bottom: 130px; */
+    background-position: 50%;
+    margin-bottom: 130px;
+    min-height: 1130px;
+    min-height: 300px;
+
 
 }
 
@@ -143,6 +184,7 @@
 }
 
 .call-btn {
+
     color: #005FAC;
     margin-top: 20px;
     padding: 20px;
@@ -154,10 +196,12 @@
 
 }
 
+
 /* footer section */
 
 
 .footer-container {
+
     display: flex;
     background-color: #151414;
     min-height: 577px;
@@ -165,17 +209,21 @@
     justify-content: space-around;
     align-items: center;
     text-align: left;
+
 }
 
 .info {
 
     color: #F8F8F8;
     max-width: 490px;
+
 }
 
 .subscribe {
+
     color: #FFFFFF;
     max-width: 325px;
+
 }
 
 .info-title {
@@ -184,6 +232,7 @@
     font-size: 45px;
     color: #F8F8F8;
     margin-bottom: 16px;
+
 }
 
 
@@ -198,6 +247,7 @@
 
 .number,
 .email {
+
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
@@ -211,9 +261,11 @@
     font-size: 25px;
     color: #ffffff;
     margin-bottom: 31px;
+
 }
 
 .mail {
+
     width: 325px;
     height: 40px;
     left: 1046px;
@@ -222,16 +274,19 @@
     background-color: #15141442;
     font-weight: 400;
     font-size: 18px;
-    color: #F3F3F3;
+    color: #ffffff;
     margin-bottom: 20px;
+
 }
 
-.btn-Subscribe{
+.btn-Subscribe {
+
     background: #005FAC;
     border-radius: 8px;
     padding: 20px 36px;
-border-style: none;
-font-weight: 600;
-font-size: 20px;
-color: #FFFFFF;
+    border-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+
 }
