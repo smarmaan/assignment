@@ -108,7 +108,7 @@
     line-height: 26px;
     color: #444343;
     padding-left: 23px;
-    list-style-image: url(images/icons/check-mark.png);
+    list-style-image: url("images/icons/check-mark.png");
 
 }
 
@@ -159,7 +159,7 @@
 
 .gradient {
 
-    background-image: url(images/watch.png), url(images/gradient1.png);
+    background-image: url("images/watch.png"), url("images/gradient1.png");
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     text-align: center;
