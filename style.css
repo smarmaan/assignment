@@ -26,7 +26,7 @@
     color: #FFFFFF;
     margin-bottom: 24px;
     margin-right: 275px;
-
+    text-align: right;
 }
 
 .banner-details {
@@ -131,7 +131,8 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-
+    margin-left: 230px;
+    margin-right: 230px;
 }
 
 .container .plan-title {
@@ -167,7 +168,6 @@
     min-height: 1130px;
     min-height: 300px;
 
-
 }
 
 
@@ -186,14 +186,89 @@
 .call-btn {
 
     color: #005FAC;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 20px;
     border-radius: 5px;
     font-weight: 600;
     font-size: 20px;
     border-style: none;
-    margin-right: 800px;
+    margin-right: 756px;
 
+}
+
+
+
+/* form section starts from here  */
+
+
+.form-section {
+    display: block;
+    background-color: #3b9bac41;
+    background-position: right;
+    align-items: center;
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.client-info {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(9, 75, 150, 0.986);
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.5);
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+
+label {
+
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: left;
+    width: 300px;
+    border: .5px solid #FFFFFF;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: rgb(134, 154, 172);
+}
+
+#submit {
+    width: 150px;
+    padding: auto;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    background-color: #005fac8f;
+    color: #FFFFFF;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+input,
+textarea {
+    border-radius: 4px;
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    height: 25px;
 }
 
 
